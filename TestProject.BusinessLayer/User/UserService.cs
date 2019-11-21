@@ -11,7 +11,6 @@ namespace TestProject.BusinessLayer.User
 {
     public class UserService : IUser
     {
-
         #region Users
         public ReturnMessageModel UserDel(int UserId)
         {
@@ -146,4 +145,5 @@ namespace TestProject.BusinessLayer.User
         }
         #endregion
     }
+
 }

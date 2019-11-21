@@ -35,6 +35,7 @@ namespace TestProject.Web.Controllers
         {
             if (ModelState.IsValid)
             {
+              
                 if (model.Id > 0)
                 {
                     return Json(_ius.UserUpd(model), JsonRequestBehavior.AllowGet);
